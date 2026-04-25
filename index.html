@@ -71,6 +71,41 @@ h1 {
   transform: translateY(-2px);
   box-shadow: 0 12px 32px rgba(255,255,255,.18);
 }
+@media screen and (max-width: 767px) {
+  .promo-page {
+    padding: 20px;
+  }
+
+  .promo-card {
+    width: 100%;
+    padding: 44px 24px;
+    border-radius: 20px;
+  }
+
+  .label {
+    margin-bottom: 18px;
+    font-size: 10px;
+    letter-spacing: 0.16em;
+  }
+
+  h1 {
+    font-size: clamp(42px, 14vw, 58px);
+    line-height: 0.95;
+  }
+
+  .text {
+    margin: 24px 0 32px;
+    font-size: 14px;
+    line-height: 1.8;
+  }
+
+  .promo-btn {
+    width: 100%;
+    max-width: 260px;
+    padding: 15px 24px;
+    font-size: 14px;
+  }
+}
     </style>
 </head>
 <body>
